@@ -1,0 +1,16 @@
+box_basename        = "ubuntu-20.04"
+build_directory     = "builds"
+build_timestamp     = "20060102150405"
+cpus                = 1
+disk_size           = 65536
+headless            = true
+guest_additions_url = ""
+iso_checksum        = "36f15879bd9dfd061cd588620a164a82972663fdd148cce1f70d57d314c21b73"
+iso_name            = "ubuntu-20.04-legacy-server-amd64.iso"
+memory              = 1024
+mirror              = "http://cdimage.ubuntu.com"
+version             = 0.06
+template            = "ubuntu-20.04-amd64"
+preseed_path        = "preseed.cfg"
+name                = "ubuntu-20.04"
+mirror_directory    = "ubuntu-legacy-server/releases/20.04/release"

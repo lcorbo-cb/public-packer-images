@@ -1,0 +1,16 @@
+box_basename        = "ubuntu-19.10"
+build_directory     = "builds"
+build_timestamp     = "20060102150405"
+cpus                = 1
+disk_size           = 65536
+headless            = true
+guest_additions_url = ""
+iso_checksum        = "921fd8b271c04aa86a321cc35b40e677f9b85f7903bf2204efb2389b0f0a64c1"
+iso_name            = "ubuntu-19.10-server-amd64.iso"
+memory              = 1024
+mirror              = "http://cdimage.ubuntu.com"
+version             = 0.01
+template            = "ubuntu-19.10-amd64"
+preseed_path        = "preseed.cfg"
+name                = "ubuntu-19.10"
+mirror_directory    = "ubuntu/releases/19.10.1/release"

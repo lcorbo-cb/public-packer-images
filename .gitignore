@@ -1,8 +1,10 @@
-# Cache objects
-packer_cache/
-
-# Crash log
-crash.log
-
-# For built boxes
-*.box
+**/license/*.txt
+**/.script_state.json
+**/.cookies*
+**/certs/**/*.csr
+**/certs/**/*.pem
+**/certs/**/id_rsa*
+**/.vagrant/
+**/builds/*.box
+**/builds/**/*.vdi
+**/packer_cache/*
